@@ -98,12 +98,12 @@ In that case, you'll see only the beginning of the commit's number and your comm
 
  ![Short version of logs](Git_log_short.jpg)
 
-## 10. Can we see only comments of previevs versions? 
+## 10. Can we see only comments from previous versions? 
 
-Git gives you an ability to switch between the versions of your file, so you will have all the commited versions safe, and you still can see one of the previous versions. To do that, you need the command git checkout and the first 4-7 numbers of the commit's hash number (you can check them by using ```git log --oneline``` command), for ex.: 
+Git gives you the ability to switch between the versions of your file, so you will have all the committed versions safe, and you still can see one of the previous versions. To do that, you need the command git checkout and the first 4-7 numbers of the commit's hash number (you can check them by using ```git log --oneline``` command), for ex.: 
 
 ``` git checkout 276f43d ```
 
 So you can switch between the versions, without harming any of them.
 
-**Keep in mind, that in the switched version, logs will be valid only for that version, which was created before your recent one. To see the recent version you can use ```git checkout - ``` command.**
+**Keep in mind, that in the switched version, logs will be valid only for that version, which was created before your recent one. To see the recent version you can use the ```git checkout - ``` command.**
