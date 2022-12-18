@@ -17,5 +17,11 @@ and
 
 Now Git knows you, and you can use all its abilities. To start controlling versions, first, you need to create a repository - folder, with the "magical" power of Git.
 
-## 4. Creating repository:
-You can add already existing folder under the Git control, or you can use Terminal to creat new folder\file.
+## 4. Creating a repository:
+You can add an already existing folder under the Git control, or you can use the VC File menu to create a new folder\file.
+
+![File menu and options to add or create file](Git_start.png)
+
+*Don't forget to point out the file's extension after . if you are creating new file *(ex.: .md or .txt etc.)*
+
+As an option, you can use the *Get Started* menu in VC if you just started working in it. 
