@@ -65,6 +65,12 @@ Here we go! Now, all new changes will be ready to commit. But keep in mind that,
 
  -m is a kind of message, so just type shortly, what have you done with your file (but usually, the first commit is named > initial commit ), and don't forget to put your comments inside of quotes ".
 
+## 8. Can we see the changes?
 
+Till Git is controlling all the committed versions of our folder and files in it, we can see which lines or symbols did we change since the last commit. To see that, we need to use comand: 
 
+```git diff```
 
+![How does the command git diff looks](Git_diff.jpg)
+
+So you can see the difference between the last committed and yet uncommitted version of your file, where added/changed/deleted lines are marked with different colors. 
