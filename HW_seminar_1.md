@@ -74,3 +74,24 @@ Till Git is controlling all the committed versions of our folder and files in it
 ![How does the command git diff looks](Git_diff.jpg)
 
 So you can see the difference between the last committed and yet uncommitted version of your file, where added/changed/deleted lines are marked with different colors. 
+
+## 9. Can we see commit's history? 
+
+Now, when we have several commmits we can see all of them whith the changes and our comments. To do that just type and submit in terminal command:
+
+```git log``` 
+
+You will see all your changes and commit details, like author, date and the comment. pay attention that all of the commits has its own hash number, diu to which it can be identified. 
+
+![How git log looks in terminal](Git_log.jpg)
+
+
+But if the history is too long and you just need to see it shorter, you always can use command:
+
+```git log --oneline```
+
+In that case you'll see only the beginning of commit's number and your comment.
+
+ *Don't forget to use "--" symbels before the > oneline atribute.*
+
+ ![Short version of logs](Git_log_short.jpg)
