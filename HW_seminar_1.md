@@ -100,6 +100,7 @@ In that case, you'll see only the beginning of the commit's number and your comm
 
 ## 10. Can we see only comments of previevs versions? 
 
-Git gives you an ability to switch between the versions of your file, so you will have all the commited versions safe, and you still can see one of the earliest. To do that, you need command: 
+Git gives you an ability to switch between the versions of your file, so you will have all the commited versions safe, and you still can see one of the previous versions. To do that, you need the command git checkout and the first 4-7 numbers of the commit's hash number, for ex.: 
 
-```git checkout``
+``` git checkout 276f43d ```
+
