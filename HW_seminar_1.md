@@ -65,6 +65,8 @@ Here we go! Now, all new changes will be ready to commit. But keep in mind that,
 
  -m is a kind of message, so just type shortly, what have you done with your file (but usually, the first commit is named > initial commit ), and don't forget to put your comments inside of quotes ".
 
+***Don't forget to check git status sometimes, and if there are any issues, use the git add function before committing.***
+
 ## 8. Can we see the changes?
 
 Till Git is controlling all the committed versions of our folder and files in it, we can see which lines or symbols did we change since the last commit. To see that, we need to use comand: 
@@ -77,21 +79,27 @@ So you can see the difference between the last committed and yet uncommitted ver
 
 ## 9. Can we see commit's history? 
 
-Now, when we have several commmits we can see all of them whith the changes and our comments. To do that just type and submit in terminal command:
+Now, when we have several commits we can see all of them with the changes and our comments. To do that just type and submit in the terminal command:
 
 ```git log``` 
 
-You will see all your changes and commit details, like author, date and the comment. pay attention that all of the commits has its own hash number, diu to which it can be identified. 
+You will see all your changes and commit details, like author, date, and comment. pay attention that all of the commits have their own hash number, due to which it can be identified. 
 
 ![How git log looks in terminal](Git_log.jpg)
 
 
-But if the history is too long and you just need to see it shorter, you always can use command:
+But if the history is too long and you just need to see it shorter, you always can use the command:
 
 ```git log --oneline```
 
-In that case you'll see only the beginning of commit's number and your comment.
+In that case, you'll see only the beginning of the commit's number and your comment.
 
  *Don't forget to use "--" symbels before the > oneline atribute.*
 
  ![Short version of logs](Git_log_short.jpg)
+
+## 10. Can we see only comments of previevs versions? 
+
+Git gives you an ability to switch between the versions of your file, so you will have all the commited versions safe, and you still can see one of the earliest. To do that, you need command: 
+
+```git checkout``
