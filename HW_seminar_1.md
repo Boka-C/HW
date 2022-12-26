@@ -145,3 +145,7 @@ So you can switch between the versions, without harming any of them.
  ```
 
  Список веток можно посмотреть командой ``git branch``.
+
+ ## 13. Конфликт при слиянии
+
+ Tckb vs gsnftvcz ckbnm 2 dtnrb d rjnjhjq byaf hfpkbxyf nj vj;tn djpybryenm rjyakbrn.
