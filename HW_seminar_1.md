@@ -154,6 +154,11 @@ So you can switch between the versions, without harming any of them.
 
  ![Conflict example](Conflict.jpg)
 
+Не забываем закоммитить все, после слияния.
 
+## 14. Удаление веток
 
-checked that branch, and created new line.
+Для удаления веток после слияния нужно набрать команду: 
+```
+git branch -d branch_name
+```
