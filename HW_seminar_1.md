@@ -107,3 +107,15 @@ Git gives you the ability to switch between the versions of your file, so you wi
 So you can switch between the versions, without harming any of them.
 
 **Keep in mind, that in the switched version, logs will be valid only for that version, which was created before your recent one. To see the recent version you can use the ```git checkout - ``` command.**
+
+## 11. Добавление изображения
+
+Для добавления изображения, оно должно находиться в папке репозитории; Указывая символы  > ``` ! [ ] ( ) ``` мы добавляем изображение. внутри квадратных скобок ``` [ ] ``` пишем описание картинки, которое будет отображаться в случае, если картинка не загрузиться, а в круглых скобках ```( )``` указываем относительный путь изображения (можно скопировать кликнув правой кнопкой мыши на файл в проводнике VSC).
+
+На пример:
+
+![Скрин_примера](ex.logo.jpg) 
+
+![Git logo](1color-darkbg@2x.png)
+
+Но файлы не принято выгружать на гитхаб, поэтому чаще всего их добавлют в список игнорирования. Для создания списка игнорирования нужно создать в рабочей папке новый файл с названием ```.gitignore``` и в нем указать названия файлов для игнорирования. 
