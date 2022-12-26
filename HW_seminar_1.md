@@ -135,3 +135,7 @@ So you can switch between the versions, without harming any of them.
 Для создания новой ветки пишем ```git branch  branch_name``` где branch_name это название новой ветки.
 
 После создания, для начало работы в ней, пишем команду ```git checkout branch_name``` 
+
+Новые ветки можно использовать как черновики.
+
+Для переноса информации из дополнительной ветки в ветку **master** нужно перейти в главную ветку (мастер) и выполнить команду ```git merge branch_name```
