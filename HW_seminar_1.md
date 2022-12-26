@@ -153,3 +153,7 @@ So you can switch between the versions, without harming any of them.
  Если информация в ветке мастер, и в ветки которую мы пытаемся слить с ней различается (построчно), то при попытке слияния может произойти конфликт. VSC предложит разрешить конфликт Либо выбрав одну из версий (текущию или входящию), либо сохранив обе версии. 
 
  ![Conflict example](Conflict.jpg)
+
+
+
+checked that branch, and created new line.
